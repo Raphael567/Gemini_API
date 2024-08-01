@@ -1,0 +1,40 @@
+#timer-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#display {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#timer-containter button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.alternative-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.alternative-buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.alternative-buttons button.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.alternative-buttons button.incorrect {
+    background-color: #f44336;
+    color: white;
+}

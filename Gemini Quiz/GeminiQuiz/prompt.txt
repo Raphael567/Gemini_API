@@ -1,0 +1,17 @@
+"Faça uma pergunta de uma das seguintes matérias: português, matemática, ciências, geografia ou história. Ela deve ter 4 alternativas e me envie a resposta em JSON. O JSON deve incluir:
+- Um objeto para a matéria.
+- Um objeto para a pergunta.
+- Um objeto para cada alternativa.
+- Um objeto para a alternativa correta.
+
+Utilize este JSON apenas como exemplo:
+{
+  "materia": "Geografia",
+  "pergunta": "Qual é o maior país do mundo em termos de área?",
+  "alternativas": [
+    {"alternativa": "a) Brasil", "correta": false},
+    {"alternativa": "b) Rússia", "correta": true},
+    {"alternativa": "c) Canadá", "correta": false},
+    {"alternativa": "d) China", "correta": false}
+  ]
+}"
